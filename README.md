@@ -1,22 +1,20 @@
-🌌 Stargazer – Aplicație web cu tematică spațială
-Stargazer este o aplicație web construită cu React, dedicată iubitorilor de astronomie care doresc să exploreze universul într-un mod interactiv și vizual. Aplicația permite utilizatorilor să vizualizeze imagini NASA zilnice, să descopere informații cosmice interesante și să salveze imagini favorite pentru a reveni la ele oricând.
+Stargazer Web App 🌌✨
 
-🧩 Funcționalități implementate
-Pagină principală cu banner video și tematică cosmică
+Stargazer este o aplicație web tematică dedicată explorării cosmosului, realizată cu React, HTML5 și CSS3. Proiectul oferă o experiență captivantă de descoperire a imaginilor și informațiilor din univers, într-un design modern, responsive și ușor de utilizat.
 
-Routing complet între paginile aplicației folosind react-router-dom
+🚀 Funcționalități principale
 
-Apelare API NASA (Astronomy Picture of the Day)
+🏠 Pagina principală (Home): Banner video tematic, buton Explore și galerie NASA.
 
-Salvare și vizualizare favorite – imaginile și videoclipurile pot fi salvate și accesate într-un popup elegant
+🌐 Rutare dinamică: Navigare între pagini cu React Router Dom.
 
-Popup pentru favorite cu design adaptat pentru desktop și mobil (versiune dragabilă pe telefon)
+💾 Managementul stării: Favorite salvate folosind Context API, cu popup pentru vizualizare și gestiune.
 
-Responsive Design – aplicația se adaptează automat la dispozitiv
+🛰️ Apelare API NASA: Imagini și videoclipuri oficiale din spațiu.
 
-Management de stare prin Context API + useReducer (pentru favorite)
+📱 Design responsive: Meniu hamburger pe mobil și navbar pe desktop.
 
-Design unitar cu temă întunecată (spațială), culori cosmice și fonturi clare
+🎨 Temă vizuală personalizată: Gradient albastru-negru și font Comfortaa.
 
 🚧 În lucru
 Următoarele pagini sunt incluse în aplicație, dar nu sunt încă funcționale. Ele vor fi completate ulterior:
@@ -27,7 +25,11 @@ Următoarele pagini sunt incluse în aplicație, dar nu sunt încă funcționale
 
 💫 Facts – va conține curiozități despre univers și sistemul solar
 
-🔧 Tehnologii utilizate
+🎨 Elemente de design personal
+Logo-ul aplicației, bannerul video de pe pagina principală și imaginile din pagina 404 au fost create personal în Canva.
+Acestea conferă o notă personală și unitară întregii aplicații, reflectând implicarea creativă dincolo de cod.
+
+🛠️ Tehnologii utilizate
 React
 
 React Router DOM
@@ -42,43 +44,53 @@ Create React App (CRA)
 
 Git & GitHub
 
-🗂️ Structura generală
-pgsql
-Copiază codul
-📁 public/
-    ├── index.html
-    └── assets/banner.mp4
+⚙️ Cum să rulezi proiectul local
+Clonează repository-ul pe calculatorul tău:
 
-📁 src/
-    ├── assets/
-    ├── components/
-    ├── context/
-    ├── pages/
-    ├── styles/
-    ├── App.js
-    └── index.js
-▶️ Instrucțiuni de rulare locală
-Clonează repository-ul:
 
-bash
-Copiază codul
+Copiază codul:
+
 git clone https://github.com/alina-idk/stargazer.git
-Navighează în directorul proiectului:
 
-bash
-Copiază codul
+Intră în folderul proiectului:
+
+
+Copiază codul:
+
 cd stargazer
-Instalează toate dependențele:
 
-bash
-Copiază codul
+Instalează toate pachetele necesare:
+
+Aceasta comandă descarcă toate librăriile pe care proiectul le folosește (React, router, etc)
+
+
+Copiază codul:
+
 npm install
-Rulează aplicația local:
 
-bash
-Copiază codul
+Pornește serverul de dezvoltare:
+
+Aplicația va porni local și va fi accesibilă în browser
+
+
+Copiază codul:
+
 npm start
-Aplicația va fi disponibilă la http://localhost:3000.
 
-🙋‍♀️ Autor
-Proiect realizat de Alina, ca parte a unui proiect individual.
+Deschide aplicația în browser:
+
+Deschide o filă nouă și accesează adresa:
+
+
+Copiază codul
+
+http://localhost:3000
+
+⚠️ Notă importantă
+Fișierul .env conține cheia API NASA (REACT_APP_NASA_API_KEY) și nu este inclus în repository pentru securitate.
+
+Folderul node_modules nu este inclus în GitHub, deoarece conține pachetele instalate local.
+
+🙏 Mulțumiri și feedback
+Proiectul este individual și reprezintă o lucrare personală.
+Feedback-ul constructiv este binevenit pentru îmbunătățiri viitoare!
