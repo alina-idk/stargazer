@@ -1,0 +1,8 @@
+# Node modules - nu trebuie urcate
+node_modules/
+
+# Environment variables
+.env
+
+# Sistemul de operare
+.DS_Store
